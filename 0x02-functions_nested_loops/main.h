@@ -1,2 +1,2 @@
-// Declaration of prots
+/* Declaration of prots*/
 int _putchar(char);
