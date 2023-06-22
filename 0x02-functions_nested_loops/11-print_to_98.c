@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_to _98 - prints n to 98
+ * print_to_98 - prints n to 98
  * @n: par
  * Return: void
  */
