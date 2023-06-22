@@ -13,17 +13,17 @@ int main(void)
 	while (x <= 100)
 	{
 		/* Replace accorddingly*/
-		if ((x % 3) == 0)
+		if ((x % 3) == 0 && (x % 5) == 0)
 		{
-			strcpy(val, "Fizz");
+			strcpy(val, "FizzBuzz");
 		}
 		else if ((x % 5) == 0)
 		{
 			strcpy(val, "Buzz");
 		}
-		else if ((x % 3) == 0 && (x % 5) == 0)
+		else if ((x % 3) == 0)
 		{
-			strcpy(val, "FizzBuzz");
+			strcpy(val, "Fizz");
 		}
 		else
 		{
