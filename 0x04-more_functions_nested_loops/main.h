@@ -3,5 +3,6 @@
 #define MAIN_H
 
 int _isupper(int c);
+int _isdigit(int c);
 
 #endif /* End  MAIN_H definition*/
