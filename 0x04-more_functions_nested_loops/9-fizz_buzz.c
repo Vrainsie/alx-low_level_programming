@@ -17,13 +17,13 @@ int main(void)
 		{
 			strcpy(val, "FizzBuzz");
 		}
-		else if ((x % 5) == 0)
-		{
-			strcpy(val, "Buzz");
-		}
 		else if ((x % 3) == 0)
 		{
 			strcpy(val, "Fizz");
+		}
+		else if ((x % 5) == 0)
+		{
+			strcpy(val, "Buzz");
 		}
 		else
 		{
