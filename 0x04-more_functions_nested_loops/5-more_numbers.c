@@ -8,7 +8,7 @@ void more_numbers(void)
 {
 	int rows = 0;
 
-	while (rows <= 10)
+	while (rows < 10)
 	{
 		int x = 0;
 
