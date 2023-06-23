@@ -12,20 +12,21 @@ void more_numbers(void)
 	{
 		int x = 0;
 
-        	while (x <= 14)
-                {
-	        	if (x > 9)
-	         	{
-		        	_putchar((x / 10) + '0');
-		        	_putchar((x % 10) + '0');
-	        	}
-	        	else
-	        	{
-		        	_putchar(x + '0');
-	        	}
+		while (x <= 14)
+		{
+			if (x > 9)
+			{
+				_putchar((x / 10) + '0');
+				_putchar((x % 10) + '0');
+			}
+			else
+			{
+				_putchar(x + '0');
+			}
 
-	        	x++;
-                }
+			x++;
+		}
+
 		_putchar('\n');
 		rows++;
 	}
