@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * cap_string - Capitalize all 
+  * cap_string - Capitalize all
   * @s: param
   *
   * Return: converted string
