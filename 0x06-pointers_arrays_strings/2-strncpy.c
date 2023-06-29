@@ -4,7 +4,7 @@
   * _strncpy - copy string to another
   * @dest: param1
   * @src: param2
-  * @n: limit 
+  * @n: limit
   *
   * Return: copied valued
   */
