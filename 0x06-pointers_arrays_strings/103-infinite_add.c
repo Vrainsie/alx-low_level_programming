@@ -2,13 +2,36 @@
 
 /**
  * infinite_add - add two numbers infinitely
- *@n1: first no
- *@n2: second no
- *@r: res store
- *@size_r: Size of the result
+ * revs - reverses a string
+ * @n: param
+ * @n1: first no
+ * @n2: second no
+ * @r: res store
+ * @size_r: Size of the result
  *
  * Return: sum on success, 0 on failure
  */
+
+void revs(char *n)
+{
+	int i = 0;
+	int j = 0;
+	char temp;
+
+	while (*(n + i) != '\0')
+	{
+		i++;
+	}
+	i--;
+
+	for (j = 0; j < i; j++, i--)
+	{
+		temp = *(n + j);
+		*(n + j) = *(n + i);
+		*(n + i) = temp;
+	}
+}
+
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
@@ -48,6 +71,6 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	if (digits == size_r)
 		return (0);
 	*(r + digits) = '\0';
-	rev_string(r);
+	revs(r);
 	return (r);
 }
