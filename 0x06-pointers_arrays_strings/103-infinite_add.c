@@ -1,15 +1,10 @@
 #include "main.h"
 
 /**
- * infinite_add - add two numbers infinitely
  * revs - reverses a string
  * @n: param
- * @n1: first no
- * @n2: second no
- * @r: res store
- * @size_r: Size of the result
  *
- * Return: sum on success, 0 on failure
+ * Return: void
  */
 
 void revs(char *n)
@@ -31,6 +26,16 @@ void revs(char *n)
 		*(n + i) = temp;
 	}
 }
+
+/**
+* infinite_add - add two numbers infinitely
+* @n1: first no
+* @n2: second no
+* @r: res store
+* @size_r: Size of the result
+*
+* Return: sum on success, 0 on failure
+*/
 
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
