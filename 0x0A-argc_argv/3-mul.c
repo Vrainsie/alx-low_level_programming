@@ -25,6 +25,6 @@ int main(int argc, char *argv[])
 
 
 	res = j * k;
-	printf("%d \n", res);
+	printf("%d\n", res);
 	return (0);
 }
