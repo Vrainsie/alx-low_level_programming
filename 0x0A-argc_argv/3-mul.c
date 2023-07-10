@@ -13,15 +13,15 @@
 int main(int argc, char *argv[])
 {
 	int j, k, res;
-	
+
 	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
 
-	sscanf(argv[1], "%d", &j);
-	sscanf(argv[2], "%d", &k);
+	j = atoi(argv[1]);
+	k = atoi(argv[2]);
 
 
 	res = j * k;
